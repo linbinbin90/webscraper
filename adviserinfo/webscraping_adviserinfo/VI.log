@@ -1,0 +1,73 @@
+2014-11-10 11:40:36-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-10 11:40:36-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-10 11:40:36-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'VI.log', 'DOWNLOAD_DELAY': 3}
+2014-11-10 11:40:36-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-10 11:40:37-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-10 11:40:37-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-10 11:40:56-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-10 11:40:56-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-10 11:40:56-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'VI.log', 'DOWNLOAD_DELAY': 3}
+2014-11-10 11:40:56-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-10 11:40:56-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-10 11:40:56-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-10 11:40:56-0500 [scrapy] INFO: Scraped data will store in table: VI_result
+2014-11-10 11:40:56-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-10 11:40:56-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-10 11:40:56-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-10 11:41:10-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00801
+2014-11-10 11:41:56-0500 [webscraping_adviserinfo] INFO: Crawled 14 pages (at 14 pages/min), scraped 0 items (at 0 items/min)
+2014-11-10 11:42:56-0500 [webscraping_adviserinfo] INFO: Crawled 20 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2014-11-10 11:43:18-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00802
+2014-11-10 11:43:56-0500 [webscraping_adviserinfo] INFO: Crawled 33 pages (at 13 pages/min), scraped 30 items (at 30 items/min)
+2014-11-10 11:44:46-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00803
+2014-11-10 11:44:56-0500 [webscraping_adviserinfo] INFO: Crawled 51 pages (at 18 pages/min), scraped 53 items (at 23 items/min)
+2014-11-10 11:45:40-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00804
+2014-11-10 11:45:56-0500 [webscraping_adviserinfo] INFO: Crawled 67 pages (at 16 pages/min), scraped 53 items (at 0 items/min)
+2014-11-10 11:46:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00805
+2014-11-10 11:46:56-0500 [webscraping_adviserinfo] INFO: Crawled 82 pages (at 15 pages/min), scraped 53 items (at 0 items/min)
+2014-11-10 11:47:20-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00820
+2014-11-10 11:47:56-0500 [webscraping_adviserinfo] INFO: Crawled 96 pages (at 14 pages/min), scraped 53 items (at 0 items/min)
+2014-11-10 11:48:56-0500 [webscraping_adviserinfo] INFO: Crawled 100 pages (at 4 pages/min), scraped 53 items (at 0 items/min)
+2014-11-10 11:49:32-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00821
+2014-11-10 11:49:56-0500 [webscraping_adviserinfo] INFO: Crawled 117 pages (at 17 pages/min), scraped 65 items (at 12 items/min)
+2014-11-10 11:50:56-0500 [webscraping_adviserinfo] INFO: Crawled 133 pages (at 16 pages/min), scraped 78 items (at 13 items/min)
+2014-11-10 11:50:59-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00822
+2014-11-10 11:51:49-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00823
+2014-11-10 11:51:56-0500 [webscraping_adviserinfo] INFO: Crawled 148 pages (at 15 pages/min), scraped 78 items (at 0 items/min)
+2014-11-10 11:52:37-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00824
+2014-11-10 11:52:56-0500 [webscraping_adviserinfo] INFO: Crawled 163 pages (at 15 pages/min), scraped 78 items (at 0 items/min)
+2014-11-10 11:53:26-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00830
+2014-11-10 11:53:56-0500 [webscraping_adviserinfo] INFO: Crawled 178 pages (at 15 pages/min), scraped 78 items (at 0 items/min)
+2014-11-10 11:54:19-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00831
+2014-11-10 11:54:56-0500 [webscraping_adviserinfo] INFO: Crawled 193 pages (at 15 pages/min), scraped 78 items (at 0 items/min)
+2014-11-10 11:55:09-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00840
+2014-11-10 11:55:56-0500 [webscraping_adviserinfo] INFO: Crawled 207 pages (at 14 pages/min), scraped 78 items (at 0 items/min)
+2014-11-10 11:55:56-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00841
+2014-11-10 11:56:39-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00850
+2014-11-10 11:56:56-0500 [webscraping_adviserinfo] INFO: Crawled 225 pages (at 18 pages/min), scraped 78 items (at 0 items/min)
+2014-11-10 11:57:26-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00851
+2014-11-10 11:57:26-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-10 11:57:56-0500 [webscraping_adviserinfo] INFO: Crawled 240 pages (at 15 pages/min), scraped 78 items (at 0 items/min)
+2014-11-10 11:57:58-0500 [webscraping_adviserinfo] INFO: Closing spider (finished)
+2014-11-10 11:57:58-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 623154,
+	 'downloader/request_count': 280,
+	 'downloader/request_method_count/GET': 97,
+	 'downloader/request_method_count/POST': 183,
+	 'downloader/response_bytes': 43457055,
+	 'downloader/response_count': 280,
+	 'downloader/response_status_count/200': 241,
+	 'downloader/response_status_count/302': 39,
+	 'dupefilter/filtered': 157,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 11, 10, 16, 57, 58, 946276),
+	 'item_scraped_count': 78,
+	 'log_count/INFO': 42,
+	 'request_depth_max': 49,
+	 'response_received_count': 241,
+	 'scheduler/dequeued': 280,
+	 'scheduler/dequeued/memory': 280,
+	 'scheduler/enqueued': 280,
+	 'scheduler/enqueued/memory': 280,
+	 'start_time': datetime.datetime(2014, 11, 10, 16, 40, 56, 391010)}
+2014-11-10 11:57:58-0500 [webscraping_adviserinfo] INFO: Spider closed (finished)

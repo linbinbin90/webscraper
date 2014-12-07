@@ -1,0 +1,46 @@
+2014-10-17 12:17:39-0400 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_99acres)
+2014-10-17 12:17:39-0400 [scrapy] INFO: Optional features available: ssl, http11
+2014-10-17 12:17:39-0400 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_99acres.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_99acres.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_99acres', 'LOG_FILE': 'scrapy_2014101712.log', 'DOWNLOAD_DELAY': 3}
+2014-10-17 12:17:40-0400 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-10-17 12:17:40-0400 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-10-17 12:17:40-0400 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-10-17 12:17:41-0400 [scrapy] INFO: Scraped data will store in table: 14101712171413562661_result
+2014-10-17 12:17:41-0400 [scrapy] INFO: Enabled item pipelines: Webscraping99AcresPipeline
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: Spider opened
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: Scrape initial
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Delhi  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Hyderabad  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Pune  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Chennai  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Surat  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Jaipur  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Kolkata  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Bangalore  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Mumbai  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Ahmedabad  for BUY ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Delhi for RENT ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Hyderabad for RENT ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Pune for RENT ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Chennai for RENT ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Surat for RENT ---
+2014-10-17 12:17:41-0400 [webscraping_99acres] INFO: ---Start requests for city: Jaipur for RENT ---
+2014-10-17 12:17:44-0400 [webscraping_99acres] INFO: ---Start requests for city: Kolkata for RENT ---
+2014-10-17 12:17:44-0400 [webscraping_99acres] INFO: buy - City: Delhi ,Page: 1 ,Status Code: 200
+2014-10-17 12:17:44-0400 [webscraping_99acres] INFO: buy - City: Delhi, have 148820 totally records
+2014-10-17 12:17:44-0400 [webscraping_99acres] INFO: buy - City: Delhi, next page link: /property-in-delhi-ncr-ffid-page-2
+2014-10-17 12:17:46-0400 [webscraping_99acres] INFO: buy - City: Hyderabad ,Page: 1 ,Status Code: 200
+2014-10-17 12:17:46-0400 [webscraping_99acres] INFO: buy - City: Hyderabad, have 10562 totally records
+2014-10-17 12:17:46-0400 [webscraping_99acres] INFO: buy - City: Hyderabad, next page link: /property-in-hyderabad-ffid-page-2
+2014-10-17 12:17:49-0400 [webscraping_99acres] INFO: buy - City: Pune ,Page: 1 ,Status Code: 200
+2014-10-17 12:17:49-0400 [webscraping_99acres] INFO: buy - City: Pune, have 20559 totally records
+2014-10-17 12:17:49-0400 [webscraping_99acres] INFO: buy - City: Pune, next page link: /property-in-pune-ffid-page-2
+2014-10-17 12:17:53-0400 [webscraping_99acres] INFO: buy - City: Chennai ,Page: 1 ,Status Code: 200
+2014-10-17 12:17:53-0400 [webscraping_99acres] INFO: buy - City: Chennai, have 22133 totally records
+2014-10-17 12:17:53-0400 [webscraping_99acres] INFO: buy - City: Chennai, next page link: /property-in-chennai-ffid-page-2
+2014-10-17 12:17:57-0400 [webscraping_99acres] INFO: buy - City: Surat ,Page: 1 ,Status Code: 200
+2014-10-17 12:17:57-0400 [webscraping_99acres] INFO: buy - City: Surat, have 997 totally records
+2014-10-17 12:17:57-0400 [webscraping_99acres] INFO: buy - City: Surat, next page link: /property-in-surat-ffid-page-2
+2014-10-17 12:18:02-0400 [webscraping_99acres] INFO: buy - City: Jaipur ,Page: 1 ,Status Code: 200
+2014-10-17 12:18:02-0400 [webscraping_99acres] INFO: buy - City: Jaipur, have 4740 totally records
+2014-10-17 12:18:02-0400 [webscraping_99acres] INFO: buy - City: Jaipur, next page link: /property-in-jaipur-ffid-page-2

@@ -1,0 +1,789 @@
+2014-11-14 11:47:10-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:10-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:10-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:10-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:10-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:10-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:10-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:10-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:11-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-14 11:47:11-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-14 11:47:11-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 3}
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:11-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:12-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:12-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-14 11:47:12-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:12-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:12-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:12-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:12-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:12-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:12-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:12-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:12-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:12-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:12-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:12-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:12-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:12-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:13-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:13-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:13-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:13-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:13-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:13-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:13-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:13-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:13-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:13-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:13-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:13-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:13-0500 [scrapy] INFO: Scraped data will store in table: test_result
+2014-11-14 11:47:13-0500 [scrapy] ERROR: INITIAL DB ERROR 1050: Table 'test_result' already exists
+2014-11-14 11:47:13-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-14 11:47:13-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-14 11:47:22-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00607
+2014-11-14 11:47:22-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:22-0500 [webscraping_adviserinfo] INFO: Closing spider (finished)
+2014-11-14 11:47:22-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 27894,
+	 'downloader/request_count': 4,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/request_method_count/POST': 2,
+	 'downloader/response_bytes': 99444,
+	 'downloader/response_count': 4,
+	 'downloader/response_status_count/200': 3,
+	 'downloader/response_status_count/302': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 22, 186955),
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 10,
+	 'request_depth_max': 2,
+	 'response_received_count': 3,
+	 'scheduler/dequeued': 4,
+	 'scheduler/dequeued/memory': 4,
+	 'scheduler/enqueued': 4,
+	 'scheduler/enqueued/memory': 4,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 12, 949478)}
+2014-11-14 11:47:22-0500 [webscraping_adviserinfo] INFO: Spider closed (finished)
+2014-11-14 11:47:22-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00604
+2014-11-14 11:47:22-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00611
+2014-11-14 11:47:23-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00613
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00609
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: Closing spider (finished)
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 27894,
+	 'downloader/request_count': 4,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/request_method_count/POST': 2,
+	 'downloader/response_bytes': 99444,
+	 'downloader/response_count': 4,
+	 'downloader/response_status_count/200': 3,
+	 'downloader/response_status_count/302': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 24, 279369),
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 10,
+	 'request_depth_max': 2,
+	 'response_received_count': 3,
+	 'scheduler/dequeued': 4,
+	 'scheduler/dequeued/memory': 4,
+	 'scheduler/enqueued': 4,
+	 'scheduler/enqueued/memory': 4,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 13, 59587)}
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: Spider closed (finished)
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00602
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00601
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00605
+2014-11-14 11:47:24-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:25-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00612
+2014-11-14 11:47:25-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:25-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00603
+2014-11-14 11:47:25-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:25-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00610
+2014-11-14 11:47:25-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:26-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 00606
+2014-11-14 11:47:26-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:38-0500 [webscraping_adviserinfo] INFO: Closing spider (shutdown)
+2014-11-14 11:47:40-0500 [webscraping_adviserinfo] ERROR: Spider error processing <GET http://www.adviserinfo.sec.gov/iapd/content/viewform/adv/sections/iapd_AdvIdentifyingInfoSection.aspx?ORG_PK=8096&RGLTR_PK=50000&STATE_CD=&FLNG_PK=04980D880008017503C433F004FD476D056C8CC0>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 409, in data_parse_detail
+	    print 'enter the detail of company'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:40-0500 [webscraping_adviserinfo] ERROR: Spider error processing <POST http://www.adviserinfo.sec.gov/IAPD/Content/Search/iapd_landing.aspx?SearchGroup=Firm&FirmKey=8096&BrokerKey=-1>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 343, in data_parse_company
+	    print 'choose a state or sec and continue'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:40-0500 [webscraping_adviserinfo] ERROR: Spider error processing <GET http://www.adviserinfo.sec.gov/iapd/content/viewform/adv/Sections/iapd_AdvAllPages.aspx?ORG_PK=3870&RGLTR_PK=50000&STATE_CD=&FLNG_PK=01961FF8000801770089F080051388B1056C8CC0>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 453, in data_parse_viewall
+	    print 'enter view all'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:40-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 31031,
+	 'downloader/request_count': 8,
+	 'downloader/request_method_count/GET': 5,
+	 'downloader/request_method_count/POST': 3,
+	 'downloader/response_bytes': 2636039,
+	 'downloader/response_count': 8,
+	 'downloader/response_status_count/200': 6,
+	 'downloader/response_status_count/302': 2,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 40, 979651),
+	 'log_count/ERROR': 2,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 5,
+	 'response_received_count': 6,
+	 'scheduler/dequeued': 8,
+	 'scheduler/dequeued/memory': 8,
+	 'scheduler/enqueued': 8,
+	 'scheduler/enqueued/memory': 8,
+	 'spider_exceptions/IOError': 1,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 12, 827547)}
+2014-11-14 11:47:40-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)
+2014-11-14 11:47:41-0500 [webscraping_adviserinfo] ERROR: Spider error processing <POST http://www.adviserinfo.sec.gov/IAPD/Content/Search/iapd_landing.aspx?SearchGroup=Firm&FirmKey=10111&BrokerKey=-1>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 343, in data_parse_company
+	    print 'choose a state or sec and continue'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:41-0500 [webscraping_adviserinfo] ERROR: Spider error processing <POST http://www.adviserinfo.sec.gov/IAPD/Content/Search/iapd_landing.aspx?SearchGroup=Firm&FirmKey=10111&BrokerKey=-1>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 343, in data_parse_company
+	    print 'choose a state or sec and continue'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:41-0500 [webscraping_adviserinfo] ERROR: Spider error processing <POST http://www.adviserinfo.sec.gov/IAPD/Content/Search/iapd_landing.aspx?SearchGroup=Firm&FirmKey=10111&BrokerKey=-1>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 343, in data_parse_company
+	    print 'choose a state or sec and continue'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:43-0500 [webscraping_adviserinfo] ERROR: Spider error processing <GET http://www.adviserinfo.sec.gov/iapd/content/viewform/adv/sections/iapd_AdvIdentifyingInfoSection.aspx?ORG_PK=10111&RGLTR_PK=50000&STATE_CD=&FLNG_PK=05AE15500008017605112650050FDE05056C8CC0>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 409, in data_parse_detail
+	    print 'enter the detail of company'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:43-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 32438,
+	 'downloader/request_count': 10,
+	 'downloader/request_method_count/GET': 6,
+	 'downloader/request_method_count/POST': 4,
+	 'downloader/response_bytes': 411761,
+	 'downloader/response_count': 10,
+	 'downloader/response_status_count/200': 7,
+	 'downloader/response_status_count/302': 3,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 43, 35735),
+	 'log_count/ERROR': 3,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 4,
+	 'response_received_count': 7,
+	 'scheduler/dequeued': 10,
+	 'scheduler/dequeued/memory': 10,
+	 'scheduler/enqueued': 10,
+	 'scheduler/enqueued/memory': 10,
+	 'spider_exceptions/IOError': 2,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 13, 144952)}
+2014-11-14 11:47:43-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)
+2014-11-14 11:47:43-0500 [webscraping_adviserinfo] ERROR: Spider error processing <GET http://www.adviserinfo.sec.gov/iapd/content/viewform/adv/sections/iapd_AdvIdentifyingInfoSection.aspx?ORG_PK=8096&RGLTR_PK=50000&STATE_CD=&FLNG_PK=04980D880008017503C433F004FD476D056C8CC0>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 409, in data_parse_detail
+	    print 'enter the detail of company'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:43-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 31694,
+	 'downloader/request_count': 9,
+	 'downloader/request_method_count/GET': 5,
+	 'downloader/request_method_count/POST': 4,
+	 'downloader/response_bytes': 281025,
+	 'downloader/response_count': 9,
+	 'downloader/response_status_count/200': 6,
+	 'downloader/response_status_count/302': 3,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 43, 183308),
+	 'log_count/ERROR': 2,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 4,
+	 'response_received_count': 6,
+	 'scheduler/dequeued': 9,
+	 'scheduler/dequeued/memory': 9,
+	 'scheduler/enqueued': 10,
+	 'scheduler/enqueued/memory': 10,
+	 'spider_exceptions/IOError': 1,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 13, 168184)}
+2014-11-14 11:47:43-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)
+2014-11-14 11:47:43-0500 [webscraping_adviserinfo] ERROR: Spider error processing <POST http://www.adviserinfo.sec.gov/IAPD/Content/Search/iapd_landing.aspx?SearchGroup=Firm&FirmKey=10111&BrokerKey=-1>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 343, in data_parse_company
+	    print 'choose a state or sec and continue'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:45-0500 [webscraping_adviserinfo] ERROR: Spider error processing <GET http://www.adviserinfo.sec.gov/iapd/content/viewform/adv/sections/iapd_AdvIdentifyingInfoSection.aspx?ORG_PK=10111&RGLTR_PK=50000&STATE_CD=&FLNG_PK=05AE15500008017605112650050FDE05056C8CC0>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 409, in data_parse_detail
+	    print 'enter the detail of company'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:45-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 31696,
+	 'downloader/request_count': 9,
+	 'downloader/request_method_count/GET': 5,
+	 'downloader/request_method_count/POST': 4,
+	 'downloader/response_bytes': 280175,
+	 'downloader/response_count': 9,
+	 'downloader/response_status_count/200': 6,
+	 'downloader/response_status_count/302': 3,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 45, 722517),
+	 'log_count/ERROR': 2,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 4,
+	 'response_received_count': 6,
+	 'scheduler/dequeued': 9,
+	 'scheduler/dequeued/memory': 9,
+	 'scheduler/enqueued': 10,
+	 'scheduler/enqueued/memory': 10,
+	 'spider_exceptions/IOError': 1,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 12, 859360)}
+2014-11-14 11:47:45-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)
+2014-11-14 11:47:45-0500 [webscraping_adviserinfo] ERROR: Spider error processing <GET http://www.adviserinfo.sec.gov/iapd/content/viewform/adv/Sections/iapd_AdvAllPages.aspx?ORG_PK=3870&RGLTR_PK=50000&STATE_CD=&FLNG_PK=01961FF8000801770089F080051388B1056C8CC0>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 453, in data_parse_viewall
+	    print 'enter view all'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:45-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 31031,
+	 'downloader/request_count': 8,
+	 'downloader/request_method_count/GET': 5,
+	 'downloader/request_method_count/POST': 3,
+	 'downloader/response_bytes': 2636039,
+	 'downloader/response_count': 8,
+	 'downloader/response_status_count/200': 6,
+	 'downloader/response_status_count/302': 2,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 45, 742211),
+	 'log_count/ERROR': 2,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 5,
+	 'response_received_count': 6,
+	 'scheduler/dequeued': 8,
+	 'scheduler/dequeued/memory': 8,
+	 'scheduler/enqueued': 8,
+	 'scheduler/enqueued/memory': 8,
+	 'spider_exceptions/IOError': 1,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 12, 810997)}
+2014-11-14 11:47:45-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)
+2014-11-14 11:47:45-0500 [webscraping_adviserinfo] ERROR: Spider error processing <POST http://www.adviserinfo.sec.gov/IAPD/Content/Search/iapd_landing.aspx?SearchGroup=Firm&FirmKey=3870&BrokerKey=-1>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 343, in data_parse_company
+	    print 'choose a state or sec and continue'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:46-0500 [webscraping_adviserinfo] ERROR: Spider error processing <POST http://www.adviserinfo.sec.gov/IAPD/Content/Search/iapd_landing.aspx?SearchGroup=Firm&FirmKey=6627&BrokerKey=-1>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 343, in data_parse_company
+	    print 'choose a state or sec and continue'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:47-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 32479,
+	 'downloader/request_count': 10,
+	 'downloader/request_method_count/GET': 5,
+	 'downloader/request_method_count/POST': 5,
+	 'downloader/response_bytes': 179951,
+	 'downloader/response_count': 10,
+	 'downloader/response_status_count/200': 6,
+	 'downloader/response_status_count/302': 4,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 47, 257812),
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 4,
+	 'response_received_count': 6,
+	 'scheduler/dequeued': 10,
+	 'scheduler/dequeued/memory': 10,
+	 'scheduler/enqueued': 13,
+	 'scheduler/enqueued/memory': 13,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 12, 267550)}
+2014-11-14 11:47:47-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)
+2014-11-14 11:47:49-0500 [webscraping_adviserinfo] ERROR: Spider error processing <POST http://www.adviserinfo.sec.gov/IAPD/Content/Search/iapd_landing.aspx?SearchGroup=Firm&FirmKey=6627&BrokerKey=-1>
+	Traceback (most recent call last):
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/Library/Python/2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Library/Python/2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/Users/linbinbin/falcon_adviserinfo/webscraping_adviserinfo/webscraping_adviserinfo/spiders/webscraping_adviserinfo_spider.py", line 343, in data_parse_company
+	    print 'choose a state or sec and continue'
+	exceptions.IOError: [Errno 32] Broken pipe
+	
+2014-11-14 11:47:54-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 34107,
+	 'downloader/request_count': 12,
+	 'downloader/request_method_count/GET': 5,
+	 'downloader/request_method_count/POST': 7,
+	 'downloader/response_bytes': 233651,
+	 'downloader/response_count': 12,
+	 'downloader/response_status_count/200': 8,
+	 'downloader/response_status_count/302': 4,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 54, 579293),
+	 'log_count/ERROR': 3,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 4,
+	 'response_received_count': 8,
+	 'scheduler/dequeued': 12,
+	 'scheduler/dequeued/memory': 12,
+	 'scheduler/enqueued': 15,
+	 'scheduler/enqueued/memory': 15,
+	 'spider_exceptions/IOError': 2,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 12, 507709)}
+2014-11-14 11:47:54-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)
+2014-11-14 11:47:55-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 34821,
+	 'downloader/request_count': 13,
+	 'downloader/request_method_count/GET': 6,
+	 'downloader/request_method_count/POST': 7,
+	 'downloader/response_bytes': 234722,
+	 'downloader/response_count': 13,
+	 'downloader/response_status_count/200': 8,
+	 'downloader/response_status_count/302': 5,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 55, 618873),
+	 'log_count/ERROR': 2,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 4,
+	 'response_received_count': 8,
+	 'scheduler/dequeued': 13,
+	 'scheduler/dequeued/memory': 13,
+	 'scheduler/enqueued': 17,
+	 'scheduler/enqueued/memory': 17,
+	 'spider_exceptions/IOError': 1,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 13, 122644)}
+2014-11-14 11:47:55-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)
+2014-11-14 11:47:56-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 34107,
+	 'downloader/request_count': 12,
+	 'downloader/request_method_count/GET': 5,
+	 'downloader/request_method_count/POST': 7,
+	 'downloader/response_bytes': 233886,
+	 'downloader/response_count': 12,
+	 'downloader/response_status_count/200': 8,
+	 'downloader/response_status_count/302': 4,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 47, 56, 416584),
+	 'log_count/ERROR': 3,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 4,
+	 'response_received_count': 8,
+	 'scheduler/dequeued': 12,
+	 'scheduler/dequeued/memory': 12,
+	 'scheduler/enqueued': 15,
+	 'scheduler/enqueued/memory': 15,
+	 'spider_exceptions/IOError': 2,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 12, 974512)}
+2014-11-14 11:47:56-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)
+2014-11-14 11:48:00-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 34920,
+	 'downloader/request_count': 13,
+	 'downloader/request_method_count/GET': 5,
+	 'downloader/request_method_count/POST': 8,
+	 'downloader/response_bytes': 259433,
+	 'downloader/response_count': 13,
+	 'downloader/response_status_count/200': 9,
+	 'downloader/response_status_count/302': 4,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2014, 11, 14, 16, 48, 0, 420503),
+	 'log_count/ERROR': 4,
+	 'log_count/INFO': 11,
+	 'request_depth_max': 4,
+	 'response_received_count': 9,
+	 'scheduler/dequeued': 13,
+	 'scheduler/dequeued/memory': 13,
+	 'scheduler/enqueued': 16,
+	 'scheduler/enqueued/memory': 16,
+	 'spider_exceptions/IOError': 3,
+	 'start_time': datetime.datetime(2014, 11, 14, 16, 47, 13, 71455)}
+2014-11-14 11:48:00-0500 [webscraping_adviserinfo] INFO: Spider closed (shutdown)

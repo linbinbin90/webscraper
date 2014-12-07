@@ -1,0 +1,996 @@
+2014-11-11 17:03:23-0500 [scrapy] INFO: Scrapy 0.24.4 started (bot: webscraping_adviserinfo)
+2014-11-11 17:03:23-0500 [scrapy] INFO: Optional features available: ssl, http11
+2014-11-11 17:03:23-0500 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'webscraping_adviserinfo.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['webscraping_adviserinfo.spiders'], 'RETRY_TIMES': 1, 'BOT_NAME': 'webscraping_adviserinfo', 'LOG_FILE': 'VT.log', 'DOWNLOAD_DELAY': 3}
+2014-11-11 17:03:23-0500 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-11 17:03:23-0500 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-11 17:03:23-0500 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-11 17:03:24-0500 [scrapy] INFO: Scraped data will store in table: VT_result
+2014-11-11 17:03:24-0500 [scrapy] INFO: Enabled item pipelines: WebscrapingAdviserinfoPipeline
+2014-11-11 17:03:24-0500 [webscraping_adviserinfo] INFO: Spider opened
+2014-11-11 17:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-11 17:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 14 pages (at 14 pages/min), scraped 0 items (at 0 items/min)
+2014-11-11 17:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 20 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2014-11-11 17:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 27 pages (at 7 pages/min), scraped 0 items (at 0 items/min)
+2014-11-11 17:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 33 pages (at 6 pages/min), scraped 29 items (at 29 items/min)
+2014-11-11 17:07:41-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05001
+2014-11-11 17:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 51 pages (at 18 pages/min), scraped 45 items (at 16 items/min)
+2014-11-11 17:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 59 pages (at 8 pages/min), scraped 64 items (at 19 items/min)
+2014-11-11 17:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 71 pages (at 12 pages/min), scraped 64 items (at 0 items/min)
+2014-11-11 17:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 85 pages (at 14 pages/min), scraped 88 items (at 24 items/min)
+2014-11-11 17:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 92 pages (at 7 pages/min), scraped 182 items (at 94 items/min)
+2014-11-11 17:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 104 pages (at 12 pages/min), scraped 226 items (at 44 items/min)
+2014-11-11 17:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 119 pages (at 15 pages/min), scraped 582 items (at 356 items/min)
+2014-11-11 17:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 135 pages (at 16 pages/min), scraped 759 items (at 177 items/min)
+2014-11-11 17:15:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05009
+2014-11-11 17:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 151 pages (at 16 pages/min), scraped 759 items (at 0 items/min)
+2014-11-11 17:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 153 pages (at 2 pages/min), scraped 759 items (at 0 items/min)
+2014-11-11 17:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 167 pages (at 14 pages/min), scraped 759 items (at 0 items/min)
+2014-11-11 17:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 177 pages (at 10 pages/min), scraped 817 items (at 58 items/min)
+2014-11-11 17:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 194 pages (at 17 pages/min), scraped 849 items (at 32 items/min)
+2014-11-11 17:20:33-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05030
+2014-11-11 17:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 203 pages (at 9 pages/min), scraped 854 items (at 5 items/min)
+2014-11-11 17:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 219 pages (at 16 pages/min), scraped 864 items (at 10 items/min)
+2014-11-11 17:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 235 pages (at 16 pages/min), scraped 900 items (at 36 items/min)
+2014-11-11 17:24:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05031
+2014-11-11 17:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 248 pages (at 13 pages/min), scraped 900 items (at 0 items/min)
+2014-11-11 17:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 261 pages (at 13 pages/min), scraped 903 items (at 3 items/min)
+2014-11-11 17:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 277 pages (at 16 pages/min), scraped 915 items (at 12 items/min)
+2014-11-11 17:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 290 pages (at 13 pages/min), scraped 1009 items (at 94 items/min)
+2014-11-11 17:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 303 pages (at 13 pages/min), scraped 1009 items (at 0 items/min)
+2014-11-11 17:28:25-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05032
+2014-11-11 17:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 319 pages (at 16 pages/min), scraped 1020 items (at 11 items/min)
+2014-11-11 17:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 335 pages (at 16 pages/min), scraped 1024 items (at 4 items/min)
+2014-11-11 18:23:10-0500 [webscraping_adviserinfo] INFO: Crawled 340 pages (at 5 pages/min), scraped 1025 items (at 1 items/min)
+2014-11-11 18:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 342 pages (at 2 pages/min), scraped 1025 items (at 0 items/min)
+2014-11-11 18:23:35-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05033
+2014-11-11 18:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 356 pages (at 14 pages/min), scraped 1038 items (at 13 items/min)
+2014-11-11 18:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 371 pages (at 15 pages/min), scraped 1038 items (at 0 items/min)
+2014-11-11 18:25:41-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05034
+2014-11-11 18:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 382 pages (at 11 pages/min), scraped 1038 items (at 0 items/min)
+2014-11-11 18:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 398 pages (at 16 pages/min), scraped 1038 items (at 0 items/min)
+2014-11-11 18:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 408 pages (at 10 pages/min), scraped 1063 items (at 25 items/min)
+2014-11-11 18:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 423 pages (at 15 pages/min), scraped 1077 items (at 14 items/min)
+2014-11-11 18:30:17-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05035
+2014-11-11 18:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 440 pages (at 17 pages/min), scraped 1089 items (at 12 items/min)
+2014-11-11 18:31:17-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05036
+2014-11-11 18:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 456 pages (at 16 pages/min), scraped 1089 items (at 0 items/min)
+2014-11-11 18:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 472 pages (at 16 pages/min), scraped 1089 items (at 0 items/min)
+2014-11-11 18:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 476 pages (at 4 pages/min), scraped 1089 items (at 0 items/min)
+2014-11-11 18:34:03-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05037
+2014-11-11 18:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 491 pages (at 15 pages/min), scraped 1098 items (at 9 items/min)
+2014-11-11 18:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 508 pages (at 17 pages/min), scraped 1116 items (at 18 items/min)
+2014-11-11 18:36:07-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05038
+2014-11-11 18:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 522 pages (at 14 pages/min), scraped 1116 items (at 0 items/min)
+2014-11-11 18:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 539 pages (at 17 pages/min), scraped 1116 items (at 0 items/min)
+2014-11-11 18:37:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05039
+2014-11-11 18:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 554 pages (at 15 pages/min), scraped 1116 items (at 0 items/min)
+2014-11-11 18:38:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05040
+2014-11-11 18:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 569 pages (at 15 pages/min), scraped 1116 items (at 0 items/min)
+2014-11-11 18:40:03-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05041
+2014-11-11 18:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 585 pages (at 16 pages/min), scraped 1116 items (at 0 items/min)
+2014-11-11 18:40:39-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05042
+2014-11-11 18:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 598 pages (at 13 pages/min), scraped 1116 items (at 0 items/min)
+2014-11-11 18:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 613 pages (at 15 pages/min), scraped 1116 items (at 0 items/min)
+2014-11-11 18:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 628 pages (at 15 pages/min), scraped 1116 items (at 0 items/min)
+2014-11-11 18:43:46-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05043
+2014-11-11 18:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 644 pages (at 16 pages/min), scraped 1116 items (at 0 items/min)
+2014-11-11 18:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 659 pages (at 15 pages/min), scraped 1118 items (at 2 items/min)
+2014-11-11 18:46:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05045
+2014-11-11 18:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 674 pages (at 15 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:46:54-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05046
+2014-11-11 18:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 688 pages (at 14 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 703 pages (at 15 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 717 pages (at 14 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 731 pages (at 14 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:50:38-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05047
+2014-11-11 18:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 748 pages (at 17 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 764 pages (at 16 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:53:04-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05048
+2014-11-11 18:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 778 pages (at 14 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 794 pages (at 16 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:55:20-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05049
+2014-11-11 18:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 810 pages (at 16 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:56:14-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05050
+2014-11-11 18:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 824 pages (at 14 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 840 pages (at 16 pages/min), scraped 1118 items (at 0 items/min)
+2014-11-11 18:58:13-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05051
+2014-11-11 18:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 849 pages (at 9 pages/min), scraped 1120 items (at 2 items/min)
+2014-11-11 18:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 864 pages (at 15 pages/min), scraped 1130 items (at 10 items/min)
+2014-11-11 19:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 878 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 894 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:02:07-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05052
+2014-11-11 19:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 909 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 924 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:03:54-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05053
+2014-11-11 19:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 939 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 954 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 968 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:06:47-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05054
+2014-11-11 19:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 983 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 1000 pages (at 17 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 1016 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:10:07-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05055
+2014-11-11 19:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 1032 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 1047 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:12:12-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05056
+2014-11-11 19:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 1062 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 1076 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:13:56-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05058
+2014-11-11 19:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 1092 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 1108 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 1125 pages (at 17 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 1142 pages (at 17 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:17:36-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05059
+2014-11-11 19:18:05-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05060
+2014-11-11 19:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 1157 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:18:48-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05061
+2014-11-11 19:19:22-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05062
+2014-11-11 19:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 1171 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 1186 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 1201 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 1217 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:23:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05065
+2014-11-11 19:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 1233 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 1249 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:25:18-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05067
+2014-11-11 19:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 1263 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:25:52-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05068
+2014-11-11 19:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 1278 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:27:22-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05069
+2014-11-11 19:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 1295 pages (at 17 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 1311 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 1327 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 1342 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 1358 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:31:27-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05070
+2014-11-11 19:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 1373 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:33:13-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05071
+2014-11-11 19:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 1389 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 1404 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:35:01-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05072
+2014-11-11 19:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 1420 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 1436 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 1452 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 1468 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:38:39-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05073
+2014-11-11 19:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 1484 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 1500 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 1516 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:41:33-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05074
+2014-11-11 19:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 1532 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 1547 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 1563 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:45:13-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05075
+2014-11-11 19:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 1580 pages (at 17 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:45:31-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05076
+2014-11-11 19:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 1595 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:46:39-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05077
+2014-11-11 19:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 1611 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:47:40-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05079
+2014-11-11 19:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 1625 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:48:37-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05080
+2014-11-11 19:48:52-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05081
+2014-11-11 19:49:18-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05083
+2014-11-11 19:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 1639 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 1653 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 1669 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 1684 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:53:11-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05084
+2014-11-11 19:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 1700 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:53:44-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05085
+2014-11-11 19:54:04-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05086
+2014-11-11 19:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 1714 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 1729 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 1746 pages (at 17 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 1762 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:58:11-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05088
+2014-11-11 19:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 1777 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 1791 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 19:59:42-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05089
+2014-11-11 20:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 1806 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 20:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 1822 pages (at 16 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 20:01:49-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05091
+2014-11-11 20:02:19-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05101
+2014-11-11 20:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 1836 pages (at 14 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 20:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 1851 pages (at 15 pages/min), scraped 1130 items (at 0 items/min)
+2014-11-11 20:04:01-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05124
+2014-11-11 20:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 1863 pages (at 12 pages/min), scraped 1140 items (at 10 items/min)
+2014-11-11 20:04:31-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05141
+2014-11-11 20:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 1878 pages (at 15 pages/min), scraped 1140 items (at 0 items/min)
+2014-11-11 20:05:26-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05142
+2014-11-11 20:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 1894 pages (at 16 pages/min), scraped 1140 items (at 0 items/min)
+2014-11-11 20:06:52-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05143
+2014-11-11 20:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 1909 pages (at 15 pages/min), scraped 1143 items (at 3 items/min)
+2014-11-11 20:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 1922 pages (at 13 pages/min), scraped 1143 items (at 0 items/min)
+2014-11-11 20:08:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05144
+2014-11-11 20:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 1938 pages (at 16 pages/min), scraped 1145 items (at 2 items/min)
+2014-11-11 20:09:49-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05146
+2014-11-11 20:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 1953 pages (at 15 pages/min), scraped 1145 items (at 0 items/min)
+2014-11-11 20:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 1970 pages (at 17 pages/min), scraped 1145 items (at 0 items/min)
+2014-11-11 20:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 1981 pages (at 11 pages/min), scraped 1145 items (at 0 items/min)
+2014-11-11 20:12:45-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05148
+2014-11-11 20:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 1994 pages (at 13 pages/min), scraped 1145 items (at 0 items/min)
+2014-11-11 20:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 2006 pages (at 12 pages/min), scraped 1160 items (at 15 items/min)
+2014-11-11 20:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 2022 pages (at 16 pages/min), scraped 1164 items (at 4 items/min)
+2014-11-11 20:16:22-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05149
+2014-11-11 20:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 2030 pages (at 8 pages/min), scraped 1173 items (at 9 items/min)
+2014-11-11 20:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 2046 pages (at 16 pages/min), scraped 1173 items (at 0 items/min)
+2014-11-11 20:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 2062 pages (at 16 pages/min), scraped 1192 items (at 19 items/min)
+2014-11-11 20:18:38-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05150
+2014-11-11 20:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 2077 pages (at 15 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:19:54-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05151
+2014-11-11 20:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 2093 pages (at 16 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 2109 pages (at 16 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 2124 pages (at 15 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:22:45-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05152
+2014-11-11 20:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 2140 pages (at 16 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:23:43-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05153
+2014-11-11 20:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 2155 pages (at 15 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:24:50-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05154
+2014-11-11 20:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 2172 pages (at 17 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 2187 pages (at 15 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:27:16-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05155
+2014-11-11 20:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 2202 pages (at 15 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:28:12-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05156
+2014-11-11 20:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 2218 pages (at 16 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 2234 pages (at 16 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 2250 pages (at 16 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:31:11-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05158
+2014-11-11 20:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 2262 pages (at 12 pages/min), scraped 1192 items (at 0 items/min)
+2014-11-11 20:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 2274 pages (at 12 pages/min), scraped 1196 items (at 4 items/min)
+2014-11-11 20:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 2284 pages (at 10 pages/min), scraped 1202 items (at 6 items/min)
+2014-11-11 20:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 2299 pages (at 15 pages/min), scraped 1226 items (at 24 items/min)
+2014-11-11 20:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 2315 pages (at 16 pages/min), scraped 1231 items (at 5 items/min)
+2014-11-11 20:35:55-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05159
+2014-11-11 20:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 2332 pages (at 17 pages/min), scraped 1231 items (at 0 items/min)
+2014-11-11 20:36:48-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05161
+2014-11-11 20:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 2348 pages (at 16 pages/min), scraped 1231 items (at 0 items/min)
+2014-11-11 20:38:02-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05201
+2014-11-11 20:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 2363 pages (at 15 pages/min), scraped 1231 items (at 0 items/min)
+2014-11-11 20:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 2378 pages (at 15 pages/min), scraped 1231 items (at 0 items/min)
+2014-11-11 20:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 2384 pages (at 6 pages/min), scraped 1231 items (at 0 items/min)
+2014-11-11 20:40:42-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05210
+2014-11-11 20:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 2399 pages (at 15 pages/min), scraped 1257 items (at 26 items/min)
+2014-11-11 20:41:42-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05219
+2014-11-11 20:41:55-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05233
+2014-11-11 20:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 2413 pages (at 14 pages/min), scraped 1261 items (at 4 items/min)
+2014-11-11 20:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 2430 pages (at 17 pages/min), scraped 1261 items (at 0 items/min)
+2014-11-11 20:43:35-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05250
+2014-11-11 20:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 2446 pages (at 16 pages/min), scraped 1261 items (at 0 items/min)
+2014-11-11 20:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 2461 pages (at 15 pages/min), scraped 1264 items (at 3 items/min)
+2014-11-11 20:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 2477 pages (at 16 pages/min), scraped 1264 items (at 0 items/min)
+2014-11-11 20:46:37-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05251
+2014-11-11 20:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 2493 pages (at 16 pages/min), scraped 1264 items (at 0 items/min)
+2014-11-11 20:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 2508 pages (at 15 pages/min), scraped 1266 items (at 2 items/min)
+2014-11-11 20:49:06-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05252
+2014-11-11 20:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 2524 pages (at 16 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 2540 pages (at 16 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 2555 pages (at 15 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:51:54-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05253
+2014-11-11 20:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 2569 pages (at 14 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 2586 pages (at 17 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:54:04-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05254
+2014-11-11 20:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 2602 pages (at 16 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 2617 pages (at 15 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:56:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05255
+2014-11-11 20:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 2633 pages (at 16 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:57:18-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05257
+2014-11-11 20:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 2648 pages (at 15 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 2665 pages (at 17 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 20:58:46-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05260
+2014-11-11 20:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 2680 pages (at 15 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 21:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 2691 pages (at 11 pages/min), scraped 1266 items (at 0 items/min)
+2014-11-11 21:01:02-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05261
+2014-11-11 21:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 2704 pages (at 13 pages/min), scraped 1273 items (at 7 items/min)
+2014-11-11 21:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 2722 pages (at 18 pages/min), scraped 1274 items (at 1 items/min)
+2014-11-11 21:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 2737 pages (at 15 pages/min), scraped 1274 items (at 0 items/min)
+2014-11-11 21:04:12-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05262
+2014-11-11 21:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 2752 pages (at 15 pages/min), scraped 1274 items (at 0 items/min)
+2014-11-11 21:05:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05267
+2014-11-11 21:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 2768 pages (at 16 pages/min), scraped 1274 items (at 0 items/min)
+2014-11-11 21:05:36-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05286
+2014-11-11 21:05:52-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05301
+2014-11-11 21:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 2783 pages (at 15 pages/min), scraped 1274 items (at 0 items/min)
+2014-11-11 21:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 2796 pages (at 13 pages/min), scraped 1274 items (at 0 items/min)
+2014-11-11 21:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 2811 pages (at 15 pages/min), scraped 1286 items (at 12 items/min)
+2014-11-11 21:09:16-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05302
+2014-11-11 21:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 2826 pages (at 15 pages/min), scraped 1286 items (at 0 items/min)
+2014-11-11 21:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 2841 pages (at 15 pages/min), scraped 1288 items (at 2 items/min)
+2014-11-11 21:11:08-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05303
+2014-11-11 21:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 2855 pages (at 14 pages/min), scraped 1288 items (at 0 items/min)
+2014-11-11 21:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 2870 pages (at 15 pages/min), scraped 1288 items (at 0 items/min)
+2014-11-11 21:12:49-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05304
+2014-11-11 21:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 2885 pages (at 15 pages/min), scraped 1288 items (at 0 items/min)
+2014-11-11 21:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 2901 pages (at 16 pages/min), scraped 1288 items (at 0 items/min)
+2014-11-11 21:14:28-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05340
+2014-11-11 21:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 2917 pages (at 16 pages/min), scraped 1288 items (at 0 items/min)
+2014-11-11 21:15:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05341
+2014-11-11 21:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 2933 pages (at 16 pages/min), scraped 1288 items (at 0 items/min)
+2014-11-11 21:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 2949 pages (at 16 pages/min), scraped 1288 items (at 0 items/min)
+2014-11-11 21:18:06-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05342
+2014-11-11 21:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 2966 pages (at 17 pages/min), scraped 1288 items (at 0 items/min)
+2014-11-11 21:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 2977 pages (at 11 pages/min), scraped 1291 items (at 3 items/min)
+2014-11-11 21:20:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05343
+2014-11-11 21:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 2993 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:21:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05344
+2014-11-11 21:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 3007 pages (at 14 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 3024 pages (at 17 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 3041 pages (at 17 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:23:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05345
+2014-11-11 21:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 3055 pages (at 14 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 3070 pages (at 15 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:25:37-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05346
+2014-11-11 21:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 3085 pages (at 15 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:27:01-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05350
+2014-11-11 21:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 3101 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:28:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05351
+2014-11-11 21:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 3117 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 3134 pages (at 17 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:29:46-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05352
+2014-11-11 21:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 3150 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 3166 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 3182 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:32:28-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05353
+2014-11-11 21:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 3198 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:34:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05354
+2014-11-11 21:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 3214 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:34:52-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05355
+2014-11-11 21:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 3229 pages (at 15 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 3244 pages (at 15 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 3260 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:37:35-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05356
+2014-11-11 21:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 3274 pages (at 14 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:39:16-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05357
+2014-11-11 21:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 3290 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 3305 pages (at 15 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:41:14-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05358
+2014-11-11 21:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 3322 pages (at 17 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:41:50-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05359
+2014-11-11 21:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 3337 pages (at 15 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 3353 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:44:10-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05360
+2014-11-11 21:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 3368 pages (at 15 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 3384 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:45:34-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05361
+2014-11-11 21:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 3400 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:46:59-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05362
+2014-11-11 21:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 3415 pages (at 15 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 3431 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 3447 pages (at 16 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:49:40-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05363
+2014-11-11 21:50:12-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05364
+2014-11-11 21:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 3462 pages (at 15 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 3479 pages (at 17 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 3485 pages (at 6 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 3497 pages (at 12 pages/min), scraped 1291 items (at 0 items/min)
+2014-11-11 21:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 3513 pages (at 16 pages/min), scraped 1321 items (at 30 items/min)
+2014-11-11 21:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 3527 pages (at 14 pages/min), scraped 1332 items (at 11 items/min)
+2014-11-11 21:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 3536 pages (at 9 pages/min), scraped 1332 items (at 0 items/min)
+2014-11-11 21:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 3545 pages (at 9 pages/min), scraped 1338 items (at 6 items/min)
+2014-11-11 21:58:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05401
+2014-11-11 21:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 3562 pages (at 17 pages/min), scraped 1359 items (at 21 items/min)
+2014-11-11 21:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 3578 pages (at 16 pages/min), scraped 1369 items (at 10 items/min)
+2014-11-11 22:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 3588 pages (at 10 pages/min), scraped 1370 items (at 1 items/min)
+2014-11-11 22:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 3598 pages (at 10 pages/min), scraped 1370 items (at 0 items/min)
+2014-11-11 22:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 3609 pages (at 11 pages/min), scraped 1380 items (at 10 items/min)
+2014-11-11 22:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 3626 pages (at 17 pages/min), scraped 1399 items (at 19 items/min)
+2014-11-11 22:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 3635 pages (at 9 pages/min), scraped 1410 items (at 11 items/min)
+2014-11-11 22:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 3651 pages (at 16 pages/min), scraped 1419 items (at 9 items/min)
+2014-11-11 22:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 3667 pages (at 16 pages/min), scraped 1464 items (at 45 items/min)
+2014-11-11 22:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 3684 pages (at 17 pages/min), scraped 1474 items (at 10 items/min)
+2014-11-11 22:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 3692 pages (at 8 pages/min), scraped 1474 items (at 0 items/min)
+2014-11-11 22:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 3707 pages (at 15 pages/min), scraped 1474 items (at 0 items/min)
+2014-11-11 22:10:22-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05402
+2014-11-11 22:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 3718 pages (at 11 pages/min), scraped 1503 items (at 29 items/min)
+2014-11-11 22:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 3735 pages (at 17 pages/min), scraped 1506 items (at 3 items/min)
+2014-11-11 22:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 3750 pages (at 15 pages/min), scraped 1522 items (at 16 items/min)
+2014-11-11 22:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 3765 pages (at 15 pages/min), scraped 1522 items (at 0 items/min)
+2014-11-11 22:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 3774 pages (at 9 pages/min), scraped 1522 items (at 0 items/min)
+2014-11-11 22:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 3786 pages (at 12 pages/min), scraped 1525 items (at 3 items/min)
+2014-11-11 22:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 3800 pages (at 14 pages/min), scraped 1540 items (at 15 items/min)
+2014-11-11 22:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 3816 pages (at 16 pages/min), scraped 1551 items (at 11 items/min)
+2014-11-11 22:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 3832 pages (at 16 pages/min), scraped 1553 items (at 2 items/min)
+2014-11-11 22:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 3848 pages (at 16 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 3865 pages (at 17 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 3882 pages (at 17 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 3897 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:22:42-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05403
+2014-11-11 22:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 3913 pages (at 16 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 3928 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 3942 pages (at 14 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 3961 pages (at 19 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 3975 pages (at 14 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 3988 pages (at 13 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 4005 pages (at 17 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:29:50-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05404
+2014-11-11 22:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 4021 pages (at 16 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 4035 pages (at 14 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 4048 pages (at 13 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 4066 pages (at 18 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 4081 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 4096 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:35:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05405
+2014-11-11 22:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 4113 pages (at 17 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 4127 pages (at 14 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 4143 pages (at 16 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 4158 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 4175 pages (at 17 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 4192 pages (at 17 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:42:07-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05406
+2014-11-11 22:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 4208 pages (at 16 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 4225 pages (at 17 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 4240 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 4255 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 4270 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 4286 pages (at 16 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 4301 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:48:32-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05407
+2014-11-11 22:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 4317 pages (at 16 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:49:35-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05418
+2014-11-11 22:49:51-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05433
+2014-11-11 22:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 4330 pages (at 13 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 4345 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 4362 pages (at 17 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 4377 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 4392 pages (at 15 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 4408 pages (at 16 pages/min), scraped 1553 items (at 0 items/min)
+2014-11-11 22:55:54-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05439
+2014-11-11 22:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 4423 pages (at 15 pages/min), scraped 1555 items (at 2 items/min)
+2014-11-11 22:56:25-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05440
+2014-11-11 22:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 4441 pages (at 18 pages/min), scraped 1555 items (at 0 items/min)
+2014-11-11 22:57:47-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05441
+2014-11-11 22:58:15-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05442
+2014-11-11 22:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 4455 pages (at 14 pages/min), scraped 1557 items (at 2 items/min)
+2014-11-11 22:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 4470 pages (at 15 pages/min), scraped 1557 items (at 0 items/min)
+2014-11-11 23:00:01-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05443
+2014-11-11 23:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 4481 pages (at 11 pages/min), scraped 1557 items (at 0 items/min)
+2014-11-11 23:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 4495 pages (at 14 pages/min), scraped 1570 items (at 13 items/min)
+2014-11-11 23:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 4512 pages (at 17 pages/min), scraped 1570 items (at 0 items/min)
+2014-11-11 23:02:35-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05444
+2014-11-11 23:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 4526 pages (at 14 pages/min), scraped 1570 items (at 0 items/min)
+2014-11-11 23:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 4537 pages (at 11 pages/min), scraped 1578 items (at 8 items/min)
+2014-11-11 23:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 4554 pages (at 17 pages/min), scraped 1583 items (at 5 items/min)
+2014-11-11 23:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 4571 pages (at 17 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 4586 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 4601 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:08:39-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05445
+2014-11-11 23:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 4619 pages (at 18 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 4633 pages (at 14 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 4649 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 4664 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 4680 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 4696 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:15:20-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05446
+2014-11-11 23:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 4711 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:15:43-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05447
+2014-11-11 23:15:58-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05448
+2014-11-11 23:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 4725 pages (at 14 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 4740 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 4756 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 4771 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 4787 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 4802 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 4818 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:22:59-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05449
+2014-11-11 23:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 4834 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:23:31-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05450
+2014-11-11 23:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 4847 pages (at 13 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 4863 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 4878 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 4894 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 4910 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 4925 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:29:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05451
+2014-11-11 23:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 4941 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 4957 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 4973 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 4990 pages (at 17 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 5005 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 5021 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:35:33-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05452
+2014-11-11 23:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 5036 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 5052 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 5068 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 5085 pages (at 17 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 5102 pages (at 17 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:41:20-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05453
+2014-11-11 23:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 5118 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 5133 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 5148 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:43:39-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05454
+2014-11-11 23:44:12-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05455
+2014-11-11 23:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 5162 pages (at 14 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 5178 pages (at 16 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:45:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05456
+2014-11-11 23:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 5193 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:46:54-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05457
+2014-11-11 23:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 5208 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 5223 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 5238 pages (at 15 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:49:32-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05458
+2014-11-11 23:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 5255 pages (at 17 pages/min), scraped 1583 items (at 0 items/min)
+2014-11-11 23:51:15-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05459
+2014-11-11 23:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 5266 pages (at 11 pages/min), scraped 1586 items (at 3 items/min)
+2014-11-11 23:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 5282 pages (at 16 pages/min), scraped 1592 items (at 6 items/min)
+2014-11-11 23:52:38-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05460
+2014-11-11 23:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 5297 pages (at 15 pages/min), scraped 1592 items (at 0 items/min)
+2014-11-11 23:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 5310 pages (at 13 pages/min), scraped 1592 items (at 0 items/min)
+2014-11-11 23:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 5325 pages (at 15 pages/min), scraped 1592 items (at 0 items/min)
+2014-11-11 23:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 5341 pages (at 16 pages/min), scraped 1592 items (at 0 items/min)
+2014-11-11 23:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 5356 pages (at 15 pages/min), scraped 1592 items (at 0 items/min)
+2014-11-11 23:58:11-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05461
+2014-11-11 23:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 5372 pages (at 16 pages/min), scraped 1592 items (at 0 items/min)
+2014-11-11 23:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 5388 pages (at 16 pages/min), scraped 1592 items (at 0 items/min)
+2014-11-12 00:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 5403 pages (at 15 pages/min), scraped 1594 items (at 2 items/min)
+2014-11-12 00:00:47-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05462
+2014-11-12 00:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 5419 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 5434 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:03:01-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05463
+2014-11-12 00:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 5451 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 5467 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:05:18-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05464
+2014-11-12 00:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 5484 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 5498 pages (at 14 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 5514 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:08:22-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05465
+2014-11-12 00:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 5531 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 5548 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 5563 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 5578 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 5595 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 5610 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:14:11-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05466
+2014-11-12 00:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 5626 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 5641 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 5656 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 5671 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 5687 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:19:07-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05468
+2014-11-12 00:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 5704 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 5720 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 5735 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:21:38-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05469
+2014-11-12 00:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 5751 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:22:47-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05470
+2014-11-12 00:23:01-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05471
+2014-11-12 00:23:15-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05472
+2014-11-12 00:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 5764 pages (at 13 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 5782 pages (at 18 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 5797 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 5812 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 5828 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:27:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05473
+2014-11-12 00:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 5841 pages (at 13 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:29:05-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05474
+2014-11-12 00:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 5859 pages (at 18 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:30:20-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05476
+2014-11-12 00:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 5873 pages (at 14 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 5888 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 5904 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 5919 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 5935 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:34:56-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05477
+2014-11-12 00:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 5951 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:35:30-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05478
+2014-11-12 00:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 5967 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:36:49-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05479
+2014-11-12 00:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 5983 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:38:08-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05481
+2014-11-12 00:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 5998 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 6013 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 6029 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 6046 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 6060 pages (at 14 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 6077 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 6093 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:45:03-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05482
+2014-11-12 00:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 6108 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:45:27-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05483
+2014-11-12 00:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 6124 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:46:42-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05485
+2014-11-12 00:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 6138 pages (at 14 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 6154 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 6170 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 6186 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 6202 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:52:08-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05486
+2014-11-12 00:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 6217 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 6234 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 6249 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:54:43-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05487
+2014-11-12 00:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 6264 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:55:26-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05488
+2014-11-12 00:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 6280 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 6296 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 6313 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 00:59:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05489
+2014-11-12 00:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 6328 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 6343 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 6358 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 6375 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:02:32-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05490
+2014-11-12 01:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 6392 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:03:42-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05491
+2014-11-12 01:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 6407 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:05:08-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05492
+2014-11-12 01:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 6423 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 6436 pages (at 13 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 6451 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 6468 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 6484 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:10:03-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05494
+2014-11-12 01:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 6501 pages (at 17 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 6515 pages (at 14 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 6530 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 6546 pages (at 16 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 6561 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 6576 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 6591 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:17:20-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05495
+2014-11-12 01:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 6606 pages (at 15 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 6620 pages (at 14 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 6633 pages (at 13 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:19:51-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05601
+2014-11-12 01:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 6643 pages (at 10 pages/min), scraped 1594 items (at 0 items/min)
+2014-11-12 01:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 6658 pages (at 15 pages/min), scraped 1608 items (at 14 items/min)
+2014-11-12 01:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 6673 pages (at 15 pages/min), scraped 1625 items (at 17 items/min)
+2014-11-12 01:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 6688 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:23:27-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05602
+2014-11-12 01:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 6705 pages (at 17 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 6720 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:26:01-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05603
+2014-11-12 01:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 6737 pages (at 17 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 6752 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:28:04-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05604
+2014-11-12 01:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 6768 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 6782 pages (at 14 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:30:16-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05609
+2014-11-12 01:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 6798 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 6813 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 6828 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:32:28-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05620
+2014-11-12 01:33:16-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05626
+2014-11-12 01:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 6843 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 6858 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:34:55-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05633
+2014-11-12 01:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 6873 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 6889 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:37:08-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05640
+2014-11-12 01:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 6904 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 6918 pages (at 14 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:39:15-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05641
+2014-11-12 01:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 6934 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:40:12-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05647
+2014-11-12 01:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 6949 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 6964 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:42:06-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05648
+2014-11-12 01:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 6980 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 6994 pages (at 14 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 7010 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:44:28-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05649
+2014-11-12 01:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 7024 pages (at 14 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 7041 pages (at 17 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:46:28-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05650
+2014-11-12 01:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 7056 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:48:22-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05651
+2014-11-12 01:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 7072 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:48:56-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05652
+2014-11-12 01:49:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05653
+2014-11-12 01:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 7087 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 7103 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:50:46-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05654
+2014-11-12 01:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 7119 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:51:41-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05655
+2014-11-12 01:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 7134 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:52:45-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05656
+2014-11-12 01:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 7150 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:53:46-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05657
+2014-11-12 01:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 7165 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 7181 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:56:11-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05658
+2014-11-12 01:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 7198 pages (at 17 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 7213 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:58:02-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05660
+2014-11-12 01:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 7229 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 01:58:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05661
+2014-11-12 01:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 7244 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 7259 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 7274 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:01:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05662
+2014-11-12 02:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 7290 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:03:22-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05663
+2014-11-12 02:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 7306 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 7321 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 7337 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:05:52-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05664
+2014-11-12 02:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 7354 pages (at 17 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:06:33-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05665
+2014-11-12 02:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 7371 pages (at 17 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 7385 pages (at 14 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:08:58-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05666
+2014-11-12 02:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 7401 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 7416 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:10:59-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05667
+2014-11-12 02:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 7431 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:11:35-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05669
+2014-11-12 02:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 7445 pages (at 14 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 7461 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:13:47-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05670
+2014-11-12 02:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 7476 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 7492 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:15:45-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05671
+2014-11-12 02:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 7508 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 7523 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:18:21-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05672
+2014-11-12 02:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 7537 pages (at 14 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 7552 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 7568 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:20:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05673
+2014-11-12 02:20:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05674
+2014-11-12 02:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 7584 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:21:43-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05675
+2014-11-12 02:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 7600 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 7615 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 7631 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 7647 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:25:49-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05676
+2014-11-12 02:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 7662 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:27:21-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05677
+2014-11-12 02:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 7677 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 7693 pages (at 16 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 7708 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:30:12-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05678
+2014-11-12 02:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 7723 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 7738 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:32:07-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05679
+2014-11-12 02:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 7755 pages (at 17 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:32:38-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05680
+2014-11-12 02:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 7772 pages (at 17 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:33:42-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05681
+2014-11-12 02:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 7785 pages (at 13 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 7802 pages (at 17 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:35:34-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05682
+2014-11-12 02:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 7817 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 7832 pages (at 15 pages/min), scraped 1625 items (at 0 items/min)
+2014-11-12 02:37:37-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05701
+2014-11-12 02:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 7847 pages (at 15 pages/min), scraped 1627 items (at 2 items/min)
+2014-11-12 02:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 7863 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:39:50-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05702
+2014-11-12 02:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 7877 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:40:25-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05730
+2014-11-12 02:41:13-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05731
+2014-11-12 02:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 7893 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 7908 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:43:15-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05732
+2014-11-12 02:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 7923 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:43:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05733
+2014-11-12 02:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 7938 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:44:51-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05734
+2014-11-12 02:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 7954 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 7968 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 7983 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:47:33-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05735
+2014-11-12 02:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 7998 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 8012 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:49:40-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05736
+2014-11-12 02:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 8029 pages (at 17 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 8045 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:51:44-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05737
+2014-11-12 02:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 8060 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 8076 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:53:47-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05738
+2014-11-12 02:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 8091 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 8108 pages (at 17 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:55:40-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05739
+2014-11-12 02:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 8124 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:56:37-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05740
+2014-11-12 02:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 8140 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:57:45-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05741
+2014-11-12 02:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 8153 pages (at 13 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 8170 pages (at 17 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 02:59:55-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05742
+2014-11-12 03:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 8186 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:00:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05743
+2014-11-12 03:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 8200 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 8215 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:02:46-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05744
+2014-11-12 03:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 8231 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 8246 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:04:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05745
+2014-11-12 03:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 8262 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 8278 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:07:13-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05746
+2014-11-12 03:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 8294 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:07:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05747
+2014-11-12 03:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 8309 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:08:49-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05748
+2014-11-12 03:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 8325 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:10:06-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05750
+2014-11-12 03:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 8339 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 8354 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:12:20-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05751
+2014-11-12 03:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 8369 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:13:00-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05752
+2014-11-12 03:13:17-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05753
+2014-11-12 03:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 8382 pages (at 13 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 8398 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 8414 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:15:27-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05757
+2014-11-12 03:16:13-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05758
+2014-11-12 03:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 8430 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 8446 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 8461 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:18:31-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05759
+2014-11-12 03:19:00-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05760
+2014-11-12 03:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 8476 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 8491 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:20:59-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05761
+2014-11-12 03:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 8507 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 8521 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 8537 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:23:25-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05762
+2014-11-12 03:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 8552 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 8569 pages (at 17 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:25:31-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05763
+2014-11-12 03:26:01-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05764
+2014-11-12 03:26:24-0500 [webscraping_adviserinfo] INFO: Crawled 8585 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:27:24-0500 [webscraping_adviserinfo] INFO: Crawled 8600 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:28:09-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05765
+2014-11-12 03:28:24-0500 [webscraping_adviserinfo] INFO: Crawled 8616 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 03:28:43-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05766
+2014-11-12 03:29:24-0500 [webscraping_adviserinfo] INFO: Crawled 8630 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:30:04-0500 [webscraping_adviserinfo] INFO: Crawled 8640 pages (at 10 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:30:04-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05767
+2014-11-12 05:30:24-0500 [webscraping_adviserinfo] INFO: Crawled 8645 pages (at 5 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:31:24-0500 [webscraping_adviserinfo] INFO: Crawled 8661 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:32:10-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05768
+2014-11-12 05:32:24-0500 [webscraping_adviserinfo] INFO: Crawled 8676 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:32:59-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05769
+2014-11-12 05:33:24-0500 [webscraping_adviserinfo] INFO: Crawled 8693 pages (at 17 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:34:03-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05770
+2014-11-12 05:34:24-0500 [webscraping_adviserinfo] INFO: Crawled 8708 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:35:24-0500 [webscraping_adviserinfo] INFO: Crawled 8723 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:36:24-0500 [webscraping_adviserinfo] INFO: Crawled 8738 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:36:36-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05772
+2014-11-12 05:37:24-0500 [webscraping_adviserinfo] INFO: Crawled 8754 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:38:24-0500 [webscraping_adviserinfo] INFO: Crawled 8770 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:38:43-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05773
+2014-11-12 05:39:24-0500 [webscraping_adviserinfo] INFO: Crawled 8787 pages (at 17 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:39:27-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05774
+2014-11-12 05:40:11-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05775
+2014-11-12 05:40:24-0500 [webscraping_adviserinfo] INFO: Crawled 8802 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:41:24-0500 [webscraping_adviserinfo] INFO: Crawled 8816 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:42:09-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05776
+2014-11-12 05:42:24-0500 [webscraping_adviserinfo] INFO: Crawled 8832 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:43:24-0500 [webscraping_adviserinfo] INFO: Crawled 8846 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:44:24-0500 [webscraping_adviserinfo] INFO: Crawled 8862 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:44:57-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05777
+2014-11-12 05:45:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05778
+2014-11-12 05:45:24-0500 [webscraping_adviserinfo] INFO: Crawled 8877 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:46:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05801
+2014-11-12 05:46:24-0500 [webscraping_adviserinfo] INFO: Crawled 8893 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:46:39-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05819
+2014-11-12 05:47:24-0500 [webscraping_adviserinfo] INFO: Crawled 8908 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:47:59-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05820
+2014-11-12 05:48:16-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05821
+2014-11-12 05:48:24-0500 [webscraping_adviserinfo] INFO: Crawled 8921 pages (at 13 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:49:24-0500 [webscraping_adviserinfo] INFO: Crawled 8937 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:49:34-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05822
+2014-11-12 05:50:24-0500 [webscraping_adviserinfo] INFO: Crawled 8951 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:50:26-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05823
+2014-11-12 05:51:08-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05824
+2014-11-12 05:51:24-0500 [webscraping_adviserinfo] INFO: Crawled 8966 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:52:18-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05825
+2014-11-12 05:52:24-0500 [webscraping_adviserinfo] INFO: Crawled 8982 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:53:03-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05826
+2014-11-12 05:53:24-0500 [webscraping_adviserinfo] INFO: Crawled 8997 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:53:28-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05827
+2014-11-12 05:53:43-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05828
+2014-11-12 05:54:24-0500 [webscraping_adviserinfo] INFO: Crawled 9012 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:54:30-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05829
+2014-11-12 05:55:15-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05830
+2014-11-12 05:55:24-0500 [webscraping_adviserinfo] INFO: Crawled 9026 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:55:59-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05832
+2014-11-12 05:56:24-0500 [webscraping_adviserinfo] INFO: Crawled 9041 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:56:50-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05833
+2014-11-12 05:57:24-0500 [webscraping_adviserinfo] INFO: Crawled 9057 pages (at 16 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:57:31-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05836
+2014-11-12 05:58:01-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05837
+2014-11-12 05:58:24-0500 [webscraping_adviserinfo] INFO: Crawled 9071 pages (at 14 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:58:28-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05838
+2014-11-12 05:59:24-0500 [webscraping_adviserinfo] INFO: Crawled 9086 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 05:59:39-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05839
+2014-11-12 06:00:10-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05840
+2014-11-12 06:00:24-0500 [webscraping_adviserinfo] INFO: Crawled 9101 pages (at 15 pages/min), scraped 1627 items (at 0 items/min)
+2014-11-12 06:00:52-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05841
+2014-11-12 06:01:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05842
+2014-11-12 06:01:24-0500 [webscraping_adviserinfo] INFO: Crawled 9115 pages (at 14 pages/min), scraped 1629 items (at 2 items/min)
+2014-11-12 06:01:54-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05843
+2014-11-12 06:02:24-0500 [webscraping_adviserinfo] INFO: Crawled 9129 pages (at 14 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:02:28-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05845
+2014-11-12 06:03:10-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05846
+2014-11-12 06:03:23-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05847
+2014-11-12 06:03:24-0500 [webscraping_adviserinfo] INFO: Crawled 9143 pages (at 14 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:03:42-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05848
+2014-11-12 06:04:24-0500 [webscraping_adviserinfo] INFO: Crawled 9159 pages (at 16 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:04:57-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05849
+2014-11-12 06:05:24-0500 [webscraping_adviserinfo] INFO: Crawled 9173 pages (at 14 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:05:49-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05850
+2014-11-12 06:06:24-0500 [webscraping_adviserinfo] INFO: Crawled 9189 pages (at 16 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:06:36-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05851
+2014-11-12 06:07:24-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05852
+2014-11-12 06:07:24-0500 [webscraping_adviserinfo] INFO: Crawled 9203 pages (at 14 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:07:38-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05853
+2014-11-12 06:08:24-0500 [webscraping_adviserinfo] INFO: Crawled 9216 pages (at 13 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:08:27-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05855
+2014-11-12 06:09:10-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05857
+2014-11-12 06:09:24-0500 [webscraping_adviserinfo] INFO: Crawled 9231 pages (at 15 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:09:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05858
+2014-11-12 06:10:24-0500 [webscraping_adviserinfo] INFO: Crawled 9247 pages (at 16 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:10:52-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05859
+2014-11-12 06:11:24-0500 [webscraping_adviserinfo] INFO: Crawled 9262 pages (at 15 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:11:33-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05860
+2014-11-12 06:12:20-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05861
+2014-11-12 06:12:24-0500 [webscraping_adviserinfo] INFO: Crawled 9276 pages (at 14 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:13:24-0500 [webscraping_adviserinfo] INFO: Crawled 9292 pages (at 16 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:13:34-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05862
+2014-11-12 06:14:24-0500 [webscraping_adviserinfo] INFO: Crawled 9306 pages (at 14 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:14:53-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05863
+2014-11-12 06:15:24-0500 [webscraping_adviserinfo] INFO: Crawled 9323 pages (at 17 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:16:00-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05864
+2014-11-12 06:16:16-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05866
+2014-11-12 06:16:24-0500 [webscraping_adviserinfo] INFO: Crawled 9337 pages (at 14 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:16:44-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05867
+2014-11-12 06:17:16-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05868
+2014-11-12 06:17:24-0500 [webscraping_adviserinfo] INFO: Crawled 9350 pages (at 13 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:17:56-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05871
+2014-11-12 06:18:24-0500 [webscraping_adviserinfo] INFO: Crawled 9365 pages (at 15 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:18:25-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05872
+2014-11-12 06:19:07-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05873
+2014-11-12 06:19:24-0500 [webscraping_adviserinfo] INFO: Crawled 9381 pages (at 16 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:20:00-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05874
+2014-11-12 06:20:24-0500 [webscraping_adviserinfo] INFO: Crawled 9396 pages (at 15 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:20:40-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05875
+2014-11-12 06:20:55-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05892
+2014-11-12 06:21:11-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05901
+2014-11-12 06:21:24-0500 [webscraping_adviserinfo] INFO: Crawled 9409 pages (at 13 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:21:29-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05902
+2014-11-12 06:21:44-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05903
+2014-11-12 06:22:02-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05904
+2014-11-12 06:22:24-0500 [webscraping_adviserinfo] INFO: Crawled 9423 pages (at 14 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:23:24-0500 [webscraping_adviserinfo] INFO: Crawled 9439 pages (at 16 pages/min), scraped 1629 items (at 0 items/min)
+2014-11-12 06:24:00-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05905
+2014-11-12 06:24:17-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05906
+2014-11-12 06:24:24-0500 [webscraping_adviserinfo] INFO: Crawled 9453 pages (at 14 pages/min), scraped 1635 items (at 6 items/min)
+2014-11-12 06:25:24-0500 [webscraping_adviserinfo] INFO: Crawled 9470 pages (at 17 pages/min), scraped 1635 items (at 0 items/min)
+2014-11-12 06:25:35-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05907
+2014-11-12 06:25:56-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05928
+2014-11-12 06:26:08-0500 [webscraping_adviserinfo] INFO: Finish the zipcode: 05958
+2014-11-12 06:26:08-0500 [webscraping_adviserinfo] INFO: All zipcode finish!
+2014-11-12 06:26:08-0500 [webscraping_adviserinfo] INFO: Closing spider (finished)
+2014-11-12 06:26:08-0500 [webscraping_adviserinfo] INFO: Dumping Scrapy stats:
+	{'downloader/exception_count': 8,
+	 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 3,
+	 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 2,
+	 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 3,
+	 'downloader/request_bytes': 24953250,
+	 'downloader/request_count': 10352,
+	 'downloader/request_method_count/GET': 1811,
+	 'downloader/request_method_count/POST': 8541,
+	 'downloader/response_bytes': 630278878,
+	 'downloader/response_count': 10344,
+	 'downloader/response_status_count/200': 9479,
+	 'downloader/response_status_count/302': 865,
+	 'dupefilter/filtered': 9398,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 11, 12, 11, 26, 8, 822564),
+	 'item_scraped_count': 1635,
+	 'log_count/INFO': 967,
+	 'request_depth_max': 1200,
+	 'response_received_count': 9479,
+	 'scheduler/dequeued': 10352,
+	 'scheduler/dequeued/memory': 10352,
+	 'scheduler/enqueued': 10352,
+	 'scheduler/enqueued/memory': 10352,
+	 'start_time': datetime.datetime(2014, 11, 11, 22, 3, 24, 492885)}
+2014-11-12 06:26:08-0500 [webscraping_adviserinfo] INFO: Spider closed (finished)
